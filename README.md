@@ -1,27 +1,28 @@
 # basic_task3_slashproject
-#To build a weather forecast web application, we need to follow a structured plan. Here is a detailed outline of the project:
+To build a weather forecast web application, we need to follow a structured plan. Here is a detailed outline of the project:
 
-#1. Setup and Requirements
+1. Setup and Requirements
 
-#Frontend: HTML, CSS, JavaScript
-#Backend: Node.js/Express or Python/Flask/Django (optional for API proxying)
-#API: OpenWeatherMap or WeatherAPI for fetching weather data
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js/Express or Python/Flask/Django (optional for API proxying)
+API: OpenWeatherMap or WeatherAPI for fetching weather data
 
-#2. Project Structure
+2. Project Structure
 
-#Frontend Files:
-#index.html: Main HTML file
-#styles.css: Styling file
-#script.js: JavaScript file for handling API calls and DOM manipulation
-#Backend Files:
-#server.js
+Frontend Files:
+index.html: Main HTML file
+styles.css: Styling file
+script.js: JavaScript file for handling API calls and DOM manipulation
+Backend Files:
+server.js
 
-#creating a weather forecast web application involves several steps:
-#Setting Up the Project: You'll need to create an HTML page, style it with CSS, and add functionality with JavaScript.
-#Fetching Weather Data: Use an API like OpenWeatherMap to get the weather data.
-#Handling User Input: Allow the user to input their location.
-#Auto-detecting Location: Use the Geolocation API to detect the user's location automatically.
+creating a weather forecast web application involves several steps:
+Setting Up the Project: You'll need to create an HTML page, style it with CSS, and add functionality with JavaScript.
+Fetching Weather Data: Use an API like OpenWeatherMap to get the weather data.
+Handling User Input: Allow the user to input their location.
+Auto-detecting Location: Use the Geolocation API to detect the user's location automatically.
 
+#HTML CODE
 
 <!DOCTYPE html>
 <html lang="en">
@@ -61,7 +62,7 @@
     <script src="script.js"></script>
 </body>
 </html>
-
+ #CSS CODE
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -92,7 +93,9 @@ input, button {
     margin-top: 20px;
 }
 
-const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
+#JAVASCRIPT
+
+const apiKey = '1234567abcd';
 const weatherDisplay = document.getElementById('weatherDisplay');
 
 function getWeatherByLocation() {
