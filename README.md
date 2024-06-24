@@ -1,4 +1,6 @@
 # basic_task3_slashproject
+In this project, you will make a web application to check out the weather forecast for the current day and for the next few days. You will use an API to fetch real-time data and then add it to your application. The user will input his/her location and the weather forecast for the next 5 days will be displayed. In addition, a feature to automatically detect the location can add to the versatility of the project.
+
 To build a weather forecast web application, we need to follow a structured plan. Here is a detailed outline of the project:
 
 1. Setup and Requirements
@@ -22,7 +24,6 @@ Fetching Weather Data: Use an API like OpenWeatherMap to get the weather data.
 Handling User Input: Allow the user to input their location.
 Auto-detecting Location: Use the Geolocation API to detect the user's location automatically.
 
-#HTML CODE
 
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +63,7 @@ Auto-detecting Location: Use the Geolocation API to detect the user's location a
     <script src="script.js"></script>
 </body>
 </html>
- #CSS CODE
+ 
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -93,7 +94,7 @@ input, button {
     margin-top: 20px;
 }
 
-#JAVASCRIPT
+
 
 const apiKey = '1234567abcd';
 const weatherDisplay = document.getElementById('weatherDisplay');
